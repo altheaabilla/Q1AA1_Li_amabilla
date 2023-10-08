@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Castoro&family=Jost:wght@500&family=Slabo+27px&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: rgb(184, 230, 170);
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 10vh;
+    width: 100%;
+    border: 20px black;
+}
+.banner{
+    background-image: url(bg-image.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 80vh;
+}
+
+.logo{
+    width:40px;
+    height:40px;
+    float: left;
+    border-radius: 50%;
+}
+.logo img{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    margin: 5px;
+    padding-top: 5px;
+}
+
+#gallery{
+    color: darkseagreen;
+}
+
+.links{
+    padding-right: 40px;
+    padding-top: 19px;
+    float: right;
+    display: inline;
+    font-family: 'Archivo Black', sans-serif;
+    opacity: 0.7;
+    transition: .4s;
+}
+
+.links:hover{
+    opacity: 1;
+    transition: .4s;
+    font-size: larger;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.links a{
+    text-decoration: none;
+}
+
+.introtext h2{
+    color: rgb(118, 199, 181);
+    font-size: 4em;
+    text-align: left;
+    font-family: 'Archivo Black', sans-serif;
+    margin-left: 25px;
+}
+
+.introtext h2 span{
+    color: rgb(255, 255, 255);
+}
+
+.introtext p{
+    color: white;
+    font-family: 'Jost', sans-serif;
+    text-align: left;
+    padding-left: 25px;
+    font-size: 20px;
+}
+
+.introtext a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    background-color: rgb(125, 156, 202);
+    margin-top: 15px;
+    font-family: 'Archivo Black', sans-serif;
+    color: white;
+    font-weight: 500;
+    margin-left: 25px;
+}
+
+.footer{
+    padding: 0px;
+    margin: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background: rgb(184, 230, 170);
+    height: 50px;
+    border: 20px black;
+    margin-bottom: 0px;
+    position: absolute;
+    height: 10vh;
+    width: 100%;
+}
+
+.socialmedias{
+    float: right;
+    border: 0vh solid;
+    padding: 13px;
+    border-radius: 50%;  
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.copyrights{
+    padding: 21px;
+    float:left;
+}

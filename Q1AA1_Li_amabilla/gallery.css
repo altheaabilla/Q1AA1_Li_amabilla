@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Castoro&family=Jost:wght@500&family=Slabo+27px&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: rgb(184, 230, 170);
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 10vh;
+    width: 100%;
+    border: 20px black;
+}
+
+.banner{
+    background-image: url(bg-image.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 80vh;
+}
+
+.logo{
+    width:40px;
+    height:40px;
+    float: left;
+    border-radius: 50%;
+}
+.logo img{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    margin: 5px;
+    padding-top: 5px;
+}
+
+.links{
+    padding-right: 40px;
+    padding-top: 19px;
+    float: right;
+    display: inline;
+    font-family: 'Archivo Black', sans-serif;
+    opacity: 0.7;
+    transition: .4s;
+}
+
+.links:hover{
+    opacity: 1;
+    transition: .4s;
+    font-size: larger;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.links a{
+    text-decoration: none;
+}
+
+h1{
+    color: azure;
+}
+
+.main-content{
+    text-align: center;
+}
+
+.img1{
+    margin-right: 15px;
+}
+
+.img2{
+    margin-right: 15px;
+}
+
+.img3{
+    margin-right: 15px;
+}
+
+.img4{
+    margin-right: 15px;
+}
+
+.img5{
+    margin-right: 15px;
+}
+
+.img6{
+    margin-right: 15px;
+}
+
+.img7{
+    margin-right: 15px;
+}
+
+.img8{
+    margin-right: 15px;
+}
+
+.img9{
+    margin-right: 15px;
+}
+
+.footer{
+    padding: 0px;
+    margin: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background: rgb(184, 230, 170);
+    height: 50px;
+    border: 20px black;
+    margin-bottom: 0px;
+    position: absolute;
+    height: 10vh;
+    width: 100%;
+}
+
+.socialmedias{
+    float: right;
+    border: 0vh solid;
+    padding: 13px;
+    border-radius: 50%;  
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.copyrights{
+    padding: 21px;
+    float:left;
+}
